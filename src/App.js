@@ -5,18 +5,21 @@ import "./App.css";
 import { Home } from "./components/Home";
 import { Card } from "./components/Card";
 import { Shop } from "./components/Shop";
+import { ShopContextPrvider } from "./context/ShopContext";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/card" element={<Card />} />
-        </Routes>
-      </BrowserRouter>
+      <ShopContextPrvider>
+        <BrowserRouter>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/card" element={<Card />} />
+          </Routes>
+        </BrowserRouter>
+      </ShopContextPrvider>
     </div>
   );
 }

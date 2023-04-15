@@ -2,7 +2,7 @@ import React from "react";
 import { Products } from "../asset/products";
 import { ShopItem } from "./ShopItem";
 
-export function Shop() {
+export function Shop(props) {
   return (
     <div className="shop">
       <h1 className="tittle">~Games~</h1>

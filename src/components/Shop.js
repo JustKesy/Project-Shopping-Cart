@@ -1,6 +1,6 @@
 import React from "react";
-import { Products } from "./products";
-import { ShopItem } from "./shopItem";
+import { Products } from "../asset/products";
+import { ShopItem } from "./ShopItem";
 
 export function Shop() {
   return (

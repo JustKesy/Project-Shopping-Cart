@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components/Navigation";
 import "./App.css";
-import { Home } from "./components/home";
-import { Card } from "./components/card";
-import { Shop } from "./components/shop";
+import { Home } from "./components/Home";
+import { Card } from "./components/Card";
+import { Shop } from "./components/Shop";
 
 function App() {
   return (

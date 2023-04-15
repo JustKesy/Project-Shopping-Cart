@@ -50,10 +50,19 @@ a:active {
   height: 86vh;
 }
 
-.product-img {
+.product-img-container {
   height: 400px;
   width: 350px;
   border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.product-img {
+  width: 80%;
 }
 .shop {
   display: flex;
@@ -94,6 +103,7 @@ a:active {
   font-weight: bold;
   border: none;
   margin-top: 10px;
+  cursor: pointer;
 }
 .addBtn:hover {
   color: #ab7a3a;

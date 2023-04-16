@@ -37,6 +37,7 @@ a {
   box-shadow: 0px 0px 20px red;
   border-radius: 5px;
   background-color: rgb(181 30 30 / 95%);
+  margin-left: 20px;
 }
 a:hover {
   box-shadow: none;
@@ -128,28 +129,71 @@ a:active {
 .card h1 {
   color: rgb(62 15 15);
   font-size: 35px;
+  margin: 10px;
 }
 
 .card-items {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 440px;
 }
 .card-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 10px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 30px black;
+  border-radius: 15px;
+  margin: 25px;
 }
 
 .card-img-container {
-  width: 400px;
+  width: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .card-img {
-  width: 80%;
+  width: 70%;
+}
+input {
+  width: 25%;
+  text-align: center;
+  margin: 5px;
+}
+.amount button {
+  width: 8%;
+}
+.amount button,
+.amount input {
+  border-radius: 5px;
+  border-color: #52230f;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.conclusion {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 25px;
+}
+
+.total-amount {
+  color: #52230f;
+  font-weight: bold;
+  font-size: large;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 30px black;
+  margin-bottom: 22px;
 }

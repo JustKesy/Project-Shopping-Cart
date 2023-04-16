@@ -13,7 +13,7 @@ export function CardItem(props) {
       </div>
       <div className="card-info">
         <p>{productName}</p>
-        <p>{price}</p>
+        <p>$ {price}</p>
         <div className="amount">
           <button onClick={() => removeItem(id)}>-</button>
           <input

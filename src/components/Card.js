@@ -21,8 +21,10 @@ export function Card() {
       {totalAmount() > 0 ? (
         <div className="conclusion">
           <p className="total-amount">Total: ${totalAmount()}</p>
-          <Link to="/shop">Back To Shop</Link>
-          <Link>Pay 💰</Link>
+          <div className="con-btns">
+            <Link to="/shop">Back To Shop</Link>
+            <Link>Pay 💰</Link>
+          </div>
         </div>
       ) : (
         <h1>Card is Empty !</h1>
